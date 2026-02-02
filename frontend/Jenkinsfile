@@ -6,9 +6,9 @@ pipeline {
   }
 
   environment {
-    AWS_REGION = "ap-south-1"
-    S3_BUCKET  = "pricedropper-frontend-bucket-30-1-2026"
-    VITE_API_URL = "https://api.pricedrop24.shop"
+    AWS_REGION = "your-region"
+    S3_BUCKET  = "your-s3-bucket"
+    VITE_API_URL = "https://api.your-domain"
   }
 
   stages {
