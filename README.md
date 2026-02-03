@@ -346,7 +346,6 @@ PriceDrop-Cloud-Native-Price-Monitoring-Platform/
 ### Required Tools
 
 - **Docker** (v20.10+)
-- **Docker Compose** (v2.0+)
 - **Python** (v3.9+)
 - **Node.js** (v18+)
 - **AWS CLI** (v2.x)
@@ -360,7 +359,7 @@ PriceDrop-Cloud-Native-Price-Monitoring-Platform/
 - AWS Access Key and Secret Access Key configured
 - Sufficient quota for:
   - EKS cluster
-  - RDS PostgreSQL instance
+  - RDS MySQL instance
   - ElastiCache Redis cluster
   - S3 bucket
   - ECR repositories
